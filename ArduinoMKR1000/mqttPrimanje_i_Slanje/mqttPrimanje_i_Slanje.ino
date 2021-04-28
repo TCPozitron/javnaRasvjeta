@@ -53,11 +53,7 @@ void paliLedice()
 
       // Wait a little bit
       delay(50);
-
-      // Turn our current led back to black for the next loop around
-      leds[whiteLed] = CRGB::Black;
    }
-   leds[59] = CRGB::Black;
 }
 
 void gasiLedice()
