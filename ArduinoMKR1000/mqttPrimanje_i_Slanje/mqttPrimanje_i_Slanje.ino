@@ -61,6 +61,7 @@ void gasiLedice()
   for(int whiteLed = 0; whiteLed < NUM_LEDS; whiteLed = whiteLed + 1) {
       leds[whiteLed] = CRGB::Black;
       FastLED.show();
+      delay(50);
    }
 }
 
