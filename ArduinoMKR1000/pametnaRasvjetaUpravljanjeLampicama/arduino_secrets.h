@@ -1,2 +1,2 @@
-#define SECRET_SSID "Pozitron"
-#define SECRET_PASS "forzafiume1987!"
+#define SECRET_SSID "YourSSID"
+#define SECRET_PASS "YourPassword"
