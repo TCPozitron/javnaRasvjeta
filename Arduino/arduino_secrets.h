@@ -1,0 +1,2 @@
+#define SECRET_SSID "MW40V_2384"
+#define SECRET_PASS "04598995"
