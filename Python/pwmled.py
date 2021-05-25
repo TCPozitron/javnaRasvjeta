@@ -7,8 +7,10 @@ import paho.mqtt.client as mqtt
 broker = "127.0.0.1"
 port = 1883
 topic = "naredbe"
+
 # poruka se sastoji od argumenata koje šalju php skripte
 # prvi argument je broj LED diode, drugi je postotak intenziteta svjetla, treći je duljina trajanja regulacije
+# primjer iz php skripte regulacija.php -> system ("/var/www/html/pwmled.py $id $value $time");
 poruka = str(sys.argv[1])+str(sys.argv[2])+str(sys.argv[3])
 
 # debug
